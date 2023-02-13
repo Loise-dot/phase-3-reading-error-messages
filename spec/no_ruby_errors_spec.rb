@@ -13,7 +13,7 @@ describe "Not having any errors and being all green" do
   end
 
   describe 'TypeError' do
-    it 'raises a TypeError for objects of the wrong type' do
+     it 'raises a TypeError for objects of the wrong type' do
       expect { load './lib/a_type_error.rb' }.not_to raise_error
     end
   end
